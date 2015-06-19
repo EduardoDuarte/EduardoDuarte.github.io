@@ -27,7 +27,7 @@
   <!-- JavaScript specific to this application that is not related to API
      calls -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" ></script>
-  <meta name="google-signin-client_id" content="318561030616-33rmiasc5umshgiagjoit6apd5lt0u33.apps.googleusercontent.com"></meta>
+  <meta name="google-signin-client_id" content="318561030616-3kbds1oia9du77a9ncvt5nj8ql6tprf4.apps.googleusercontent.com"></meta>
 </head>
 <body>
   <div id="gConnect">
@@ -41,9 +41,10 @@
     <button id="disconnect" >Disconnect your Google account from this app</button>
 
    
+	
+   
   </div>
-
- <H1> Google Calendar ScottNath </H1>
+<H1> Google Calendar ScottNath </H1>
    
   
 
@@ -77,7 +78,7 @@
 	<iframe src="https://www.google.com/calendar/embed?src=ui47bj43j9ovbvrqi03jbsmc68%40group.calendar.google.com&ctz=America/Sao_Paulo" style="border: 0"
 	width="800" height="600" frameborder="0" scrolling="no">
 	</iframe>
-   
+ 
 	
   
   <div id="loaderror">
@@ -189,7 +190,7 @@ var helper = (function() {
 $(document).ready(function() {
   $('#disconnect').click(helper.disconnect);
   $('#loaderror').hide();
-  if ($('meta')[0].content == '318561030616-33rmiasc5umshgiagjoit6apd5lt0u33.apps.googleusercontent.com') {
+  if ($('meta')[0].content == '318561030616-3kbds1oia9du77a9ncvt5nj8ql6tprf4.apps.googleusercontent.com') {
     alert('This sample requires your OAuth credentials (client ID) ' +
         'from the Google APIs console:\n' +
         '    https://code.google.com/apis/console/#:access\n\n' +
