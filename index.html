@@ -218,7 +218,7 @@ var updateSignIn = function() {
 /**
  * This method sets up the sign-in listener after the client library loads.
  */
- var SCOPES = 'https://www.googleapis.com/auth/calendar';
+  var SCOPES = ('https://www.googleapis.com/auth/plus.login','https://www.googleapis.com/auth/calendar');
 function startApp() {
   gapi.load('auth2', function() {
     gapi.client.load('calendar','v3').then(function() {
